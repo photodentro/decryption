@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg26"
+   version="1.1"
+   viewBox="0 0 100 100"
+   height="100"
+   width="100">
+  <metadata
+     id="metadata32">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs30" />
+  <title
+     id="title2">Β</title>
+  <rect
+     id="rect4"
+     style="fill: #ffffff"
+     stroke-width="4"
+     opacity="0.90"
+     stroke="#ffffff"
+     ry="10"
+     rx="10"
+     height="96"
+     width="96"
+     y="2"
+     x="2" />
+  <g
+     id="g24"
+     style="font-weight:bold;font-size:96px;font-family:'Comics Sans MS', Helvetica, sans-serif;text-anchor:middle;overflow:hidden">
+    <defs
+       id="defs16">
+      <filter
+         id="shadow">
+        <feGaussianBlur
+           id="feGaussianBlur6"
+           result="shadow"
+           stdDeviation="2 2" />
+        <feOffset
+           id="feOffset8"
+           dy="1"
+           dx="1" />
+      </filter>
+      <filter
+         id="innerShadow">
+        <feGaussianBlur
+           id="feGaussianBlur11"
+           result="blur"
+           stdDeviation="0.5"
+           in="SourceGraphic" />
+        <feOffset
+           id="feOffset13"
+           dy="0"
+           dx="0"
+           in="blur" />
+      </filter>
+    </defs>
+    <g
+       id="text18"
+       style="opacity:0.5;fill:#104020;filter:url(#shadow)"
+       aria-label="Β">
+      <path
+         id="path34"
+         style="opacity:0.5;fill:#104020;filter:url(#shadow)"
+         d="m 50.28125,43.109375 q 4.265625,0 6.46875,-1.875 2.203125,-1.875 2.203125,-5.53125 0,-3.609375 -2.203125,-5.484375 -2.203125,-1.921875 -6.46875,-1.921875 h -9.984375 v 14.8125 z m 0.609375,30.609375 q 5.4375,0 8.15625,-2.296875 Q 61.8125,69.125 61.8125,64.484375 61.8125,59.9375 59.09375,57.6875 56.375,55.390625 50.890625,55.390625 H 40.296875 V 73.71875 Z m 16.78125,-25.171875 q 5.8125,1.6875 9,6.234375 3.1875,4.546875 3.1875,11.15625 0,10.125 -6.84375,15.09375 Q 66.171875,86 52.203125,86 H 22.25 V 16.015625 h 27.09375 q 14.578125,0 21.09375,4.40625 Q 77,24.828125 77,34.53125 q 0,5.109375 -2.390625,8.71875 -2.390625,3.5625 -6.9375,5.296875 z" />
+    </g>
+    <g
+       id="text20"
+       style="fill:#000040;stroke:#102030;stroke-width:3"
+       aria-label="Β">
+      <path
+         id="path37"
+         style="fill:#000040;stroke:#102030;stroke-width:3"
+         d="m 50.28125,43.109375 q 4.265625,0 6.46875,-1.875 2.203125,-1.875 2.203125,-5.53125 0,-3.609375 -2.203125,-5.484375 -2.203125,-1.921875 -6.46875,-1.921875 h -9.984375 v 14.8125 z m 0.609375,30.609375 q 5.4375,0 8.15625,-2.296875 Q 61.8125,69.125 61.8125,64.484375 61.8125,59.9375 59.09375,57.6875 56.375,55.390625 50.890625,55.390625 H 40.296875 V 73.71875 Z m 16.78125,-25.171875 q 5.8125,1.6875 9,6.234375 3.1875,4.546875 3.1875,11.15625 0,10.125 -6.84375,15.09375 Q 66.171875,86 52.203125,86 H 22.25 V 16.015625 h 27.09375 q 14.578125,0 21.09375,4.40625 Q 77,24.828125 77,34.53125 q 0,5.109375 -2.390625,8.71875 -2.390625,3.5625 -6.9375,5.296875 z" />
+    </g>
+    <g
+       id="text22"
+       style="fill:#5cc067;filter:url(#innerShadow)"
+       aria-label="Β">
+      <path
+         id="path40"
+         style="fill:#5cc067;filter:url(#innerShadow)"
+         d="m 50.28125,43.109375 q 4.265625,0 6.46875,-1.875 2.203125,-1.875 2.203125,-5.53125 0,-3.609375 -2.203125,-5.484375 -2.203125,-1.921875 -6.46875,-1.921875 h -9.984375 v 14.8125 z m 0.609375,30.609375 q 5.4375,0 8.15625,-2.296875 Q 61.8125,69.125 61.8125,64.484375 61.8125,59.9375 59.09375,57.6875 56.375,55.390625 50.890625,55.390625 H 40.296875 V 73.71875 Z m 16.78125,-25.171875 q 5.8125,1.6875 9,6.234375 3.1875,4.546875 3.1875,11.15625 0,10.125 -6.84375,15.09375 Q 66.171875,86 52.203125,86 H 22.25 V 16.015625 h 27.09375 q 14.578125,0 21.09375,4.40625 Q 77,24.828125 77,34.53125 q 0,5.109375 -2.390625,8.71875 -2.390625,3.5625 -6.9375,5.296875 z" />
+    </g>
+  </g>
+</svg>

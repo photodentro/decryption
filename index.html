@@ -1,0 +1,40 @@
+<!doctype html> 
+<!--
+Copyright (C) 2018 Alkis Georgopoulos <alkisg@gmail.com>.
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+<html lang="el"> 
+<head> 
+  <meta charset="UTF-8" />
+  <!-- Using this metatag users can't scale the page using pinchIn/out gestures on mobile devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <title>Αποκρυπτογράφηση</title>  
+  <script src="https://code.createjs.com/1.0.0/easeljs.min.js"></script>
+  <script src="decryption.js"></script>
+  <style type="text/css">
+    /* Remove margins and HTML scrollbars */
+    body, html  {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: black;
+    }
+    #mainCanvas {
+    padding: 0;
+    margin: auto;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    }
+  </style>
+</head>
+
+<body onLoad="init();">
+  <canvas id="mainCanvas" width="320" height="180">
+    Your browser doesn't support HTML5!
+  </canvas>
+</body>
+</html>
