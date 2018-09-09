@@ -1,0 +1,32 @@
+Copyright: 2000, 2008 Bruno Coudoin and others
+License: GPLv3
+Files:
+background.svg
+
+Copyright: 2018 https://www.mycutegraphics.com/
+License: license-mycutegraphics.txt
+Files:
+p0.png
+p1.png
+p2.png
+p3.png
+p4.png
+p5.png
+p6.png
+p7.png
+p8.png
+p9.png
+p10.png
+p11.png
+p12.png
+p13.png
+p14.png
+p15.png
+p16.png
+p17.png
+p18.png
+p19.png
+p20.png
+p21.png
+p22.png
+p23.png
