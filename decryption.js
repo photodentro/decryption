@@ -17,9 +17,9 @@ var bg;
 // Region = {
 //   cont: Container, box: Shape, tiles: [Bitmap], color: String, selectedTile,
 //   gx: GridX, gy: GridY, ts: TileSize, bs: BlankSpace, ma: Margin, x, y }
-var r1 = { tiles: Array(8), color: "DarkTurquoise" };
-var r2 = { tiles: Array(8), color: "DeepSkyBlue" };
-var r3 = { tiles: Array(10), color: "LightGreen" };
+var r1 = { tiles: Array(8), color: "#f0c0c0" };
+var r2 = { tiles: Array(8), color: "#c0f0c0" };
+var r3 = { tiles: Array(10), color: "#c0c0f0" };
 // the menu bar buttons
 var r4 = { tiles: Array(5) };
 var statusText, lvlText;
@@ -286,7 +286,7 @@ function resize() {
   r2.ts = r1.ts;
   r2.ma = r1.ma;
   r2.x = r1.x;
-  r2.y = r1.y + r1.gy*r1.ts + (r1.gy+3)*r1.ma;
+  r2.y = r1.y + r1.gy*r1.ts + (r1.gy+5)*r1.ma;
   alignRegion(r2);
 
   // Region3
@@ -332,7 +332,7 @@ function resize() {
   bg.scaleX = stage.canvas.width / bg.image.width;
   bg.scaleY = stage.canvas.height / bg.image.height;
   bg.cache(0, 0, bg.image.width, bg.image.height);
-  
+
   stage.update();
 }
 

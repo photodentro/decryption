@@ -1,9 +1,39 @@
-Copyright: 2000, 2008 Bruno Coudoin and others
-License: GPLv3
+Copyright: 2018 Γεώργιος Πισκοπάνης
+License: CC BY-NC-SA 4.0
 Files:
-background.svg
+bar_about.svg
+bar_help.svg
+bar_home.svg
+bar_next.svg
+bar_previous.svg
+l0.svg
+l1.svg
+l2.svg
+l3.svg
+l4.svg
+l5.svg
+l6.svg
+l7.svg
+l8.svg
+l9.svg
+l10.svg
+l11.svg
+l12.svg
+l13.svg
+l14.svg
+l15.svg
+l16.svg
+l17.svg
+l18.svg
+l19.svg
+l20.svg
+l21.svg
+l22.svg
+l23.svg
+l_blank.svg
+l_placeholder.svg
 
-Copyright: 2018 https://www.mycutegraphics.com/
+Copyright: 2018 https://www.mycutegraphics.com/, Άρτεμις Γεωργοπούλου
 License: license-mycutegraphics.txt
 Files:
 p0.png

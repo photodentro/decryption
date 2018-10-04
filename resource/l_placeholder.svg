@@ -5,11 +5,36 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg26"
    version="1.1"
-   viewBox="0 0 100 100"
-   height="100"
-   width="100">
+   viewBox="0 0 140 140"
+   height="140"
+   width="140"
+   sodipodi:docname="l_placeholder.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1024"
+     id="namedview21"
+     showgrid="false"
+     inkscape:zoom="5.7928571"
+     inkscape:cx="30.123304"
+     inkscape:cy="70"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg26"
+     inkscape:pagecheckerboard="true" />
   <metadata
      id="metadata32">
     <rdf:RDF>
@@ -18,23 +43,185 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
       </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs30" />
-  <title
-     id="title2">l_placeholder</title>
-  <rect
-     id="rect4"
-     style="fill: #ffffff"
-     stroke-width="4"
-     opacity="0.40"
-     stroke="#ffffff"
-     ry="10"
-     rx="10"
-     height="96"
-     width="96"
-     y="2"
-     x="2" />
+     id="defs30">
+    <linearGradient
+       id="Gradient_74"
+       gradientUnits="userSpaceOnUse"
+       x1="52.4375"
+       y1="167.14999"
+       x2="197.7625"
+       y2="167.14999"
+       spreadMethod="pad">
+      <stop
+         offset="0%"
+         stop-color="#4EB9F3"
+         id="stop381" />
+      <stop
+         offset="100%"
+         stop-color="#22A7F0"
+         id="stop383" />
+    </linearGradient>
+    <linearGradient
+       id="Gradient_75"
+       gradientUnits="userSpaceOnUse"
+       x1="55.287498"
+       y1="167.14999"
+       x2="194.91251"
+       y2="167.14999"
+       spreadMethod="pad">
+      <stop
+         offset="0%"
+         stop-color="#22A7F0"
+         id="stop386" />
+      <stop
+         offset="100%"
+         stop-color="#4EB9F3"
+         id="stop388" />
+    </linearGradient>
+    <linearGradient
+       id="Gradient_76"
+       gradientUnits="userSpaceOnUse"
+       x1="69.525002"
+       y1="167.14999"
+       x2="180.675"
+       y2="167.14999"
+       spreadMethod="pad">
+      <stop
+         offset="0%"
+         stop-color="#F1F2F2"
+         id="stop391" />
+      <stop
+         offset="100%"
+         stop-color="#D1D3D4"
+         id="stop393" />
+    </linearGradient>
+    <linearGradient
+       id="Gradient_77"
+       gradientUnits="userSpaceOnUse"
+       x1="72.387497"
+       y1="167.14999"
+       x2="177.8125"
+       y2="167.14999"
+       spreadMethod="pad">
+      <stop
+         offset="0%"
+         stop-color="#D1D3D4"
+         id="stop396" />
+      <stop
+         offset="100%"
+         stop-color="#F1F2F2"
+         id="stop398" />
+    </linearGradient>
+    <linearGradient
+       id="Gradient_78"
+       gradientUnits="userSpaceOnUse"
+       x1="226.9125"
+       y1="170.65"
+       x2="346.5875"
+       y2="170.65"
+       spreadMethod="pad">
+      <stop
+         offset="0%"
+         stop-color="#EB984E"
+         id="stop401" />
+      <stop
+         offset="100%"
+         stop-color="#E67E22"
+         id="stop403" />
+    </linearGradient>
+    <linearGradient
+       id="Gradient_79"
+       gradientUnits="userSpaceOnUse"
+       x1="229.7625"
+       y1="170.65"
+       x2="343.7375"
+       y2="170.65"
+       spreadMethod="pad">
+      <stop
+         offset="0%"
+         stop-color="#E67E22"
+         id="stop406" />
+      <stop
+         offset="100%"
+         stop-color="#EB984E"
+         id="stop408" />
+    </linearGradient>
+    <linearGradient
+       id="Gradient_80"
+       gradientUnits="userSpaceOnUse"
+       x1="244.0125"
+       y1="170.65"
+       x2="329.4875"
+       y2="170.65"
+       spreadMethod="pad">
+      <stop
+         offset="0%"
+         stop-color="#F1F2F2"
+         id="stop411" />
+      <stop
+         offset="100%"
+         stop-color="#D1D3D4"
+         id="stop413" />
+    </linearGradient>
+    <linearGradient
+       id="Gradient_81"
+       gradientUnits="userSpaceOnUse"
+       x1="246.8625"
+       y1="170.65"
+       x2="326.6375"
+       y2="170.65"
+       spreadMethod="pad">
+      <stop
+         offset="0%"
+         stop-color="#D1D3D4"
+         id="stop416" />
+      <stop
+         offset="100%"
+         stop-color="#F1F2F2"
+         id="stop418" />
+    </linearGradient>
+  </defs>
+  <g
+     transform="matrix(0.88057561,0,0,0.87898093,69.952306,70.00073)"
+     id="g3712">
+    <g
+       transform="matrix(1.5233459,0,0,1.5223846,374.2,-515.65)"
+       id="g3710">
+      <g
+         id="use3706">
+        <path
+           style="fill:#ffffff;fill-opacity:0.87843137;stroke:none"
+           inkscape:connector-curvature="0"
+           id="path76"
+           d="m -296.85,377.05 q 0,13 13,13 h 76.4 q 13,0 13,-13 V 300.4 q 0,-13 -13,-13 h -76.4 q -13,0 -13,13 z" />
+      </g>
+      <path
+         inkscape:connector-curvature="0"
+         d="m -283.80644,287.38827 h 76.39984 q 12.99998,0 12.99998,12.99992 v 76.64955 q 0,12.99992 -12.99998,12.99992 h -76.39984 q -12.99997,0 -12.99997,-12.99992 v -76.64955 q 0,-12.99992 12.99997,-12.99992 z"
+         id="use3708"
+         style="fill:none;stroke:#ffffff;stroke-width:1.96996295;stroke-linecap:round;stroke-linejoin:round" />
+    </g>
+  </g>
 </svg>
