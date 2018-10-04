@@ -274,11 +274,12 @@ function resize() {
 
   // Region1
   // We want to fit gx tiles, plus 2 for spacing.
-  r1.ts = Math.floor(stage.canvas.width / (r1.gx + 2));
-  r1.bs = stage.canvas.width - r1.gx * r1.ts;  // Total blank space
+  r1gx = 8;
+  r1.ts = Math.floor(stage.canvas.width / (r1gx + 2));
+  r1.bs = stage.canvas.width - r1gx * r1.ts;  // Total blank space
   // This depicts the vertical margins between the tiles
-  r1.ma = r1.bs / (5 + (1 + (r1.gx - 1) + 1) + 5);
-  r1.x = 5 * r1.ma;
+  r1.ma = r1.bs / (5 + (1 + (r1gx - 1) + 1) + 5);
+  r1.x = 5 * r1.ma + (8-lvl.word.length)*r1.ts/2;
   r1.y = 2*r1.ma;
   alignRegion(r1);
 
@@ -292,7 +293,7 @@ function resize() {
   // Region3
   r3.ts = r1.ts*8/10;
   r3.ma = r1.ma*8/10;
-  r3.x = r1.x;
+  r3.x = 5 * r1.ma;
   r3.y = r2.y + r2.gy*r2.ts + (r2.gy+5)*r2.ma;
   alignRegion(r3);
 
@@ -427,7 +428,7 @@ function initLevel(newLevel) {
 
   // Region1
   r1.tilesNum = lvl.word.length;
-  r1.gx = 8;
+  r1.gx = lvl.word.length;
   r1.gy = 1;
   for (i = 0; i < r1.tiles.length; i++)
     if (i < r1.tilesNum)
@@ -438,7 +439,7 @@ function initLevel(newLevel) {
 
   // Region2
   r2.tilesNum = lvl.word.length;
-  r2.gx = 8;
+  r2.gx = lvl.word.length;
   r2.gy = 1;
   for (i = 0; i < r2.tiles.length; i++)
     if (i < r2.tilesNum)
