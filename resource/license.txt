@@ -1,6 +1,7 @@
-Copyright: 2018 Γεώργιος Πισκοπάνης
+Copyright: 2018 Georgios Piskopanis
 License: CC BY-NC-SA 4.0
 Files:
+background.svg
 bar_about.svg
 bar_help.svg
 bar_home.svg
@@ -33,7 +34,7 @@ l23.svg
 l_blank.svg
 l_placeholder.svg
 
-Copyright: 2018 https://www.mycutegraphics.com/, Άρτεμις Γεωργοπούλου
+Copyright: 2018 https://www.mycutegraphics.com/, Artemis Georgopoulou
 License: license-mycutegraphics.txt
 Files:
 p0.png
