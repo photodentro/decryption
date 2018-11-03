@@ -75,7 +75,7 @@ function random(num) {
 function imgByName(name) {
   var i = resourceNames.indexOf(name);
   if (i < 0)
-    console.log(`imgByName failed for name=${name}`);
+    console.log("imgByName failed for name=" + name);
 
   return resources[i];
 }
@@ -373,10 +373,10 @@ function generate_stock(word, tilesNum) {
   var i, j, temp;
   var result, inword, outword;  // Those are arrays, not strings
 
-  // Verify that all the characters of `word` exit in alphabet
+  // Verify that all the characters of "word" exit in alphabet
   for (i = 0; i < word.length; i++)
     if (alphabet.indexOf(word.charAt(i)) < 0) {
-      alert(`Internal error: ${word} contains characters not in alphabet!`);
+      alert("Internal error: " + word + " contains characters not in alphabet!");
       return
     }
   // Shuffle the alphabet so that afterwards the outword chars are shuffled
