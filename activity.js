@@ -21,7 +21,7 @@ var r1 = { tiles: Array(8), color: "#f0c0c0" };
 var r2 = { tiles: Array(8), color: "#c0f0c0" };
 var r3 = { tiles: Array(10), color: "#c0c0f0" };
 // the menu bar buttons
-var r4 = { tiles: Array(5) };
+var r4 = { tiles: Array(6) };
 var statusText, lvlText;
 var imgSuccess;
 const ratio = 16/9;
@@ -29,7 +29,7 @@ const ratio = 16/9;
 // https://bugzilla.mozilla.org/show_bug.cgi?id=874811
 // Additionally, preloadjs currently doesn't work with .svg images.
 // Put the tiles first so that we can get them by index more easily
-var resourceNames = ['l_blank.svg', 'l_placeholder.svg', 'l0.svg', 'l1.svg', 'l2.svg', 'l3.svg', 'l4.svg', 'l5.svg', 'l6.svg', 'l7.svg', 'l8.svg', 'l9.svg', 'l10.svg', 'l11.svg', 'l12.svg', 'l13.svg', 'l14.svg', 'l15.svg', 'l16.svg', 'l17.svg', 'l18.svg', 'l19.svg', 'l20.svg', 'l21.svg', 'l22.svg', 'l23.svg', 'p_blank.png',  'p0.png', 'p1.png', 'p2.png', 'p3.png', 'p4.png', 'p5.png', 'p6.png', 'p7.png', 'p8.png', 'p9.png', 'p10.png', 'p11.png', 'p12.png', 'p13.png', 'p14.png', 'p15.png', 'p16.png', 'p17.png', 'p18.png', 'p19.png', 'p20.png', 'p21.png', 'p22.png', 'p23.png', 'bar_home.svg', 'bar_help.svg', 'bar_about.svg', 'bar_previous.svg', 'bar_next.svg', 'background.svg', 'flower_good.svg', 'lion_good.svg'];
+var resourceNames = ['l_blank.svg', 'l_placeholder.svg', 'l0.svg', 'l1.svg', 'l2.svg', 'l3.svg', 'l4.svg', 'l5.svg', 'l6.svg', 'l7.svg', 'l8.svg', 'l9.svg', 'l10.svg', 'l11.svg', 'l12.svg', 'l13.svg', 'l14.svg', 'l15.svg', 'l16.svg', 'l17.svg', 'l18.svg', 'l19.svg', 'l20.svg', 'l21.svg', 'l22.svg', 'l23.svg', 'p_blank.png',  'p0.png', 'p1.png', 'p2.png', 'p3.png', 'p4.png', 'p5.png', 'p6.png', 'p7.png', 'p8.png', 'p9.png', 'p10.png', 'p11.png', 'p12.png', 'p13.png', 'p14.png', 'p15.png', 'p16.png', 'p17.png', 'p18.png', 'p19.png', 'p20.png', 'p21.png', 'p22.png', 'p23.png', 'bar_home.svg', 'bar_help.svg', 'bar_about.svg', 'bar_fullscreen.svg', 'bar_previous.svg', 'bar_next.svg', 'background.svg', 'flower_good.svg', 'lion_good.svg'];
 var resources = [];
 var resourcesLoaded = 0;
 var level;
@@ -131,7 +131,8 @@ function queueComplete(event) {
     r3.cont.addChild(r3.tiles[i]);
   }
 
-  var onMenuClick = [onMenuHome, onMenuHelp, onMenuAbout, onMenuPrevious, onMenuNext];
+  var onMenuClick = [onMenuHome, onMenuHelp, onMenuAbout, onMenuFullscreen,
+    onMenuPrevious, onMenuNext];
   r4.cont = new createjs.Container();
   stage.addChild(r4.cont);
   for (i = 0; i < r4.tiles.length; i++) {
@@ -210,6 +211,23 @@ function onMenuHelp(event) {
 
 function onMenuAbout(event) {
   window.open("credits/index_DS_II.html");
+}
+
+function onMenuFullscreen(event) {
+  var doc = window.document;
+  var docEl = doc.documentElement;
+
+  var requestFullScreen = docEl.requestFullscreen || docEl.mozRequestFullScreen
+    || docEl.webkitRequestFullScreen || docEl.msRequestFullscreen;
+  var cancelFullScreen = doc.exitFullscreen || doc.mozCancelFullScreen
+    || doc.webkitExitFullscreen || doc.msExitFullscreen;
+
+  if (!doc.fullscreenElement && !doc.mozFullScreenElement
+    && !doc.webkitFullscreenElement && !doc.msFullscreenElement) {
+    requestFullScreen.call(docEl);
+  } else {
+    cancelFullScreen.call(doc);
+  }
 }
 
 function onMenuPrevious(event) {
@@ -310,7 +328,7 @@ function resize() {
 
   // Region4
   r4.ts = stage.canvas.height / 10;
-  r4.ma = r4.ts / 5;
+  r4.ma = r4.ts / 4;
   r4.x = 0;
   r4.y = stage.canvas.height - r4.ts - 2*r4.ma;
   alignRegion(r4);
@@ -318,7 +336,7 @@ function resize() {
   r4.tiles[r4.tiles.length-1].x += r4.ts + r4.ma;
 
   lvlText.text = level + 1;
-  lvlText.x = parseInt(4.5*(r4.ma+r4.ts) + r4.ma/2);
+  lvlText.x = parseInt(5.5*(r4.ma+r4.ts) + r4.ma/2);
   lvlText.y = stage.canvas.height - r4.ma/2 - r4.ts/2;
   lvlText.font = parseInt(2*r4.ts/2) + "px Arial";
 
@@ -467,8 +485,8 @@ function initLevel(newLevel) {
         "l" + alphabet.indexOf(lvl.stock.charAt(i)) + ".svg")
 
   // Region4
-  r4.tilesNum = 5;
-  r4.gx = 5;
+  r4.tilesNum = 6;
+  r4.gx = 6;
   r4.gy = 1;
   endGame = false;
   imgSuccess.image = resources[resourceNames.indexOf("flower_good.svg") + random(2)];
