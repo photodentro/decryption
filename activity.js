@@ -133,11 +133,11 @@ function onHome(event) {
 }
 
 function onHelp(event) {
-  ge('help').style.display = 'block';
+  ge('help').style.display = 'flex';
 }
 
 function onHelpHide(event) {
-  ge('help').style.display = 'none';
+  ge('help').style.display = '';
 }
 
 function onAbout(event) {

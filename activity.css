@@ -199,12 +199,14 @@ body {
 }
 
 #help {
-  display: none;
+  display: none; /* javascript toggles that to flex */
+  align-items: center;
+  justify-content: center;
   background-color: rgba(63,63,63,0.5);
   position: fixed;
   width: 100%;
   height: 100%;
-  margin: auto;
+  margin: 0;
   top: 0;
   left: 0;
   bottom: 0;
@@ -213,14 +215,7 @@ body {
 
 #help .dialog {
   text-align: center;
-  position: absolute;
-  margin: auto;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
   width: 19em;
-  height: 10em;
   background-color: white;
   color: black;
   padding: 1em;
