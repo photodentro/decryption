@@ -1,4 +1,4 @@
-Copyright: 2018 Georgios Piskopanis
+Copyright: 2018 Georgios Piskopanis, Artemis Georgopoulou
 License: CC BY-NC-SA 4.0
 Files:
 background.svg
@@ -31,7 +31,6 @@ l20.svg
 l21.svg
 l22.svg
 l23.svg
-l_blank.svg
 l_placeholder.svg
 
 Copyright: 2018 https://www.mycutegraphics.com/, Artemis Georgopoulou
