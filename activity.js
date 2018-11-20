@@ -334,7 +334,7 @@ function initLevel(newLevel) {
       act.encrypted[i].src = sformat('resource/p{}.png', act.encrypted[i].$ord);
       act.encrypted[i].style.display = '';
       act.decrypted[i].$ord = -1;
-      act.decrypted[i].src = 'resource/l_placeholder.svg';
+      act.decrypted[i].src = 'resource/l.svg';
       act.decrypted[i].style.display = '';
     } else {
       act.encrypted[i].style.display = 'none';
